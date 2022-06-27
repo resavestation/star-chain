@@ -1,0 +1,21 @@
+$phoneWidth: 640px
+
+@mixin phone
+  @media screen and (max-width: $phoneWidth)
+    @content
+
+$colorPurple: #473889
+$colorGreen: #187100
+$colorWhite: #fff
+$colorRed: #c12b35
+
+html
+  width: 100%
+  height: 100%
+  font-size: 14px
+body
+  font-size: 1em
+  width: 100%
+  height: 100%
+  margin: 0
+  background-color: $colorPurple
